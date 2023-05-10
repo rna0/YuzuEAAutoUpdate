@@ -2,6 +2,7 @@
 
 YUZU_PATH=/home/deck/Applications/yuzu.AppImage
 
+# Check if internet access exists
 if ping -q -c 1 -W 1 google.com >/dev/null; then
 
 # Download latest Yuzu EA
