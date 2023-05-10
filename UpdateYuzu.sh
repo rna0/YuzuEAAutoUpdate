@@ -1,6 +1,6 @@
 #! /bin/bash
 
-YUZU_PATH=/home/deck/Documents/yuzu.AppImage
+YUZU_PATH=/home/deck/Applications/yuzu.AppImage
 
 if ping -q -c 1 -W 1 google.com >/dev/null; then
 
